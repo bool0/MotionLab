@@ -87,6 +87,16 @@ were inlined into a single self-contained file. No functional logic was changed.
 
 ---
 
+## fzstd — MIT License
+
+<https://github.com/101arrowz/fzstd>
+
+> Copyright (c) 2020 Arjun Barrett
+>
+> (MIT License — same permission text as above.)
+
+---
+
 ## marked — MIT License
 
 <https://github.com/markedjs/marked>

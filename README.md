@@ -39,7 +39,7 @@ That's the whole learning curve.
 |---|---|
 | CSV / TSV (delimiter auto-detected) | CSV |
 | **FIT** activities | Feather |
-| Feather / Arrow | **Parquet** |
+| Feather / Arrow (incl. lz4 / zstd compressed) | **Parquet** |
 | **Parquet** (incl. snappy) | JSON (records) |
 | JSON (all pandas orients) / JSONL | JSONL |
 | HTML tables | XML |
@@ -111,6 +111,7 @@ This project bundles the following excellent open-source libraries:
 | [Plotly.js](https://plotly.com/javascript/) | charts | MIT |
 | [Apache Arrow JS](https://arrow.apache.org/) | Feather read/write | Apache-2.0 |
 | [hyparquet](https://github.com/hyparam/hyparquet) / [hyparquet-writer](https://github.com/hyparam/hyparquet-writer) | Parquet read/write | MIT |
+| [fzstd](https://github.com/101arrowz/fzstd) | ZSTD decompression | MIT |
 | [marked](https://marked.js.org/) | Markdown | MIT |
 | [MathJax](https://www.mathjax.org/) | LaTeX math | Apache-2.0 |
 
